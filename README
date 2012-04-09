@@ -1,0 +1,5 @@
+The project is a Java Web Application that hosts a bookmarklet.
+
+*The bookmarklet will take the current web page that you are visiting and convert it into a PDF. The PDF file will then be uploaded to your account in Box.net
+
+*It is a nice little utility to take PDF versions of Web pages that you might want to read later.
