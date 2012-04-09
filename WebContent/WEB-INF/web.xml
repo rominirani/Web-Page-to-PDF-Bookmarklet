@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<servlet>
+		<servlet-name>BookmarkletServlet</servlet-name>
+		<servlet-class>com.mindstorm.pdfboomarklet.BookmarkletServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>PDFGenServlet</servlet-name>
+		<servlet-class>com.mindstorm.pdfboomarklet.PDFGenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>BookmarkletServlet</servlet-name>
+		<url-pattern>/boxlogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>PDFGenServlet</servlet-name>
+		<url-pattern>/pdfgen</url-pattern>
+	</servlet-mapping>
+	<display-name>BoxWebPage2PDFBookmarklet</display-name>
+	<welcome-file-list>
+		<welcome-file>bookmark.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
